@@ -2,14 +2,14 @@
 
 ## Objective
 
-The objective of this project is to help to generate graphical representations for Google Analytics metrics. In order to do so, we utilize the Google Analytics API with calls through the Python script provided in this repository. Currently, the script visualizes website traffic, but more metrics will be implemented to follow.
+The objective of this project is to help to generate graphical representations for Google Analytics metrics. In order to do so, we utilize the Google Analytics API with calls through the Python script provided in this repository. Currently, the script visualizes website traffic in terms off sessions in the last 7 days, but more metrics will be implemented to follow.
 
 ## Getting Started
 
 ### Enabling API Services
 
-In order to begin using this project, you will first need to:
-1. Enable the API
+In order to begin using this project, you will first need to enable to Google Analytics API.
+
 
 In order to Enable to API, you will either need to sign in to your [Google Developer Console](https://console.cloud.google.com) and either begin a new project, or select and existing one. Now, in your dashboard, select 'Enable APIs and Services', and select 'Google Analytics API'. 
 
@@ -32,5 +32,10 @@ Now, to run the program, you will need to provide the path to your .json credent
 
 Now in the python script, make sure to edit the lines that contain 'YOUR_VIEW_ID' with the value of your view ID and 'your_credentials.json' with the path to your json credentials relative to where this program is held. 
 
-*NOTE*: Command line argument support coming soon, so editing will not be necessary
+*NOTE*: Command line argument support coming soon, so editing will not be necessary.
 
+Now once, all the preceding steps have been followed, to run the program simply enter
+```
+$ python3 generate.py
+```
+in your command line (or whatever environment you choose to run python in).
