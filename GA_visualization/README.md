@@ -17,6 +17,8 @@ Now create service account credentials and download the corresponding JSON key f
 
 Once you have the email held within your credentials JSON file, in your Google Analytics dashboard go to  Google Analytics > Admin > View > User Management and add a user with the email from your file and give it administrative rights. 
 
+
+You will also need to to add you [Google Analytics Tracking Code](https://chartio.com/learn/marketing-analytics/how-to-add-google-analytics-tracking-to-a-website/) to your website in order to track metrics.
 ### Install Required Python Libraries
 
 First ensure that you have Python 3.6 or a newer version installed on your system. Then ensure that these libraries are installed:
