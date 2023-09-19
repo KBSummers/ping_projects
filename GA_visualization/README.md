@@ -11,7 +11,7 @@ The objective of this project is to help to generate graphical representations f
 In order to begin using this project, you will first need to:
 1. Enable the API
 
-In order to Enable to API, you will either need to sign in to your ![Google Developer Console](https://console.cloud.google.com) and either begin a new project, or select and existing one. Now, in your dashboard, select 'Enable APIs and Services', and select 'Google Analytics API'. 
+In order to Enable to API, you will either need to sign in to your [Google Developer Console](https://console.cloud.google.com) and either begin a new project, or select and existing one. Now, in your dashboard, select 'Enable APIs and Services', and select 'Google Analytics API'. 
 
 Now create service account credentials and download the corresponding JSON key file, and note the associated email address within the file, as this will be used to authenticate API interactions.
 
