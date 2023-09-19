@@ -19,6 +19,10 @@ Once you have the email held within your credentials JSON file, in your Google A
 
 
 You will also need to to add you [Google Analytics Tracking Code](https://chartio.com/learn/marketing-analytics/how-to-add-google-analytics-tracking-to-a-website/) to your website in order to track metrics.
+
+Here is a UML Diagram showing how the software all works together:
+
+![GA_Visualization Diagram](./images/GA_Visual_Diagram.png)
 ### Install Required Python Libraries
 
 First ensure that you have Python 3.6 or a newer version installed on your system. Then ensure that these libraries are installed:
